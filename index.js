@@ -2,7 +2,7 @@
 const express = require('express');
 const myParser = require("body-parser");
 const app = express();
-
+var a = "";
 const fs = require('fs');
 var port = 3002;
 let rawdata = fs.readFileSync('data.json');
